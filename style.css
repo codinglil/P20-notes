@@ -18,6 +18,9 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+.add:active {
+  transform: scale(0.98);
+}
 .note {
   background: white;
   height: 315px;
