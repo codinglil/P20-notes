@@ -2,7 +2,7 @@ body {
   background-color: rgb(135, 214, 214);
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 40px;
   padding-top: 3rem;
 }
 
@@ -23,9 +23,9 @@ body {
 }
 .note {
   background: white;
-  height: 315px;
+  height: 280px;
   width: 300px;
-  margin: 30px 20px;
+
   box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,6 +51,10 @@ body {
   border: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
+}
+.main {
+  padding: 20px;
+  font-weight: 600;
 }
 .hidden {
   display: none;
