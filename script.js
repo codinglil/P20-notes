@@ -1,6 +1,6 @@
 const addBtn = document.getElementById("add");
 
-addBtn.addEventListener("click", () => addNewNote("Hello"));
+addBtn.addEventListener("click", () => addNewNote("Edit your note..."));
 
 // setting text inside function to empty by default
 function addNewNote(text = "") {
